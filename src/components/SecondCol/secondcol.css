@@ -1,0 +1,27 @@
+.secondcol{
+    max-width: 265px;
+    height: calc(100vh - 57px) ;
+    overflow-y: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    border-right: 1px solid rgba(128, 128, 128, .5);
+}
+.secondcol .active{
+    background: rgba(8, 110, 167, 0.53);
+}
+.secondcol .active{
+    font-weight: bold;
+}
+.secondcol .myBtn{
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    user-select: none;
+}
+.secondcol .myBtn img{
+    padding-right: 18px;
+}

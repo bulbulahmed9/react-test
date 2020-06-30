@@ -1,0 +1,56 @@
+.navbar{
+    background: #1890FF !important;
+    padding: 0 !important;
+}
+.navbar-brand{
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: #ffffff !important;
+    padding: 16px 13px !important;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-size: 14px !important; 
+    line-height: 17px !important;
+    padding: 20px 50px !important;
+}
+.active{
+    background: rgba(8, 110, 167, 0.37);
+}
+
+.nav-form > div.name > label, .nav-form > div.address > label{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #687074;
+    padding: 5px 0;
+}
+ .nav-form > div.name > input[type=text],  .nav-form > div.address > input[type=text]{
+    width: 100%;
+    background: #F2F4F7;
+    border: 0.2px solid #687074;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    padding-left: 14px;
+}
+ .nav-form > button{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+/* @media(max-width: 576px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+} */

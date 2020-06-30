@@ -1,0 +1,43 @@
+
+
+/* body{
+} */
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,ul,li,ol,p,span{
+  margin: 0px;
+  padding: 0px;
+}
+ul,li{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+img{
+  outline: 0;
+}
+.App{
+  overflow: hidden;
+}
+
+        /*COMMON CSS ENDED*/
+
+@media(max-width: 768px){
+  
+  .firstcol, .secondcol{
+    height: 200px !important;
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(128, 128, 128, .5);
+    text-align: center;
+    padding-left: 0 !important;
+  }
+}

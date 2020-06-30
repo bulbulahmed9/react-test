@@ -1,0 +1,23 @@
+.firstcol{
+    max-width: 200px;
+    height: calc(100vh - 57px) ;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding-right: 0 !important;
+    border-right: 1px solid rgba(128, 128, 128, .5);
+}
+.firstcol .myBtn{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 13px 17px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
+    user-select: none;
+}
+.firstcol .active{
+    background: rgba(8, 110, 167, 0.37);
+    font-weight: bold;
+}

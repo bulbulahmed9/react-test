@@ -1,0 +1,58 @@
+.editComment{
+    padding: 24px 30px;
+}
+.editComment h4{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #687074;
+}
+.editComment button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background: #FFFFFF;
+    border: 0.5px solid #086EA7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 50px;
+    outline: none;
+    color: #086EA7;
+}
+.editComment button img{
+    padding-right: 11px;
+}
+.editComment label{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #687074;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.editComment small{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #687074;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.editComment input{
+    width: 100%;
+    background: #F2F4F7;
+    border: 0.2px solid #687074;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    padding-left: 14px;
+}
+
+.ql-editor{
+    height: 174px;
+}
